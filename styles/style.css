@@ -35,6 +35,10 @@ button:hover {
   border: none;
   transform: scale(1.2);
 }
+.portfolio-img img{
+    width: 33.33%;
+    height: 400px;
+}
 btn-primary {
 }
 /* banner section css */
@@ -230,4 +234,35 @@ btn-primary {
   font-weight: 300;
   margin-bottom: 10px;
 
+}
+
+/* portfolio section start */
+#portfolio-section .portfolio-text h3{
+    color: #f00;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+
+}
+#portfolio-section .portfolio-text h1{
+    color: #070211;
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+#portfolio-section .portfolio-text p{
+    margin-top: 5px 0px;
+    padding-bottom:50px ;
+
+}
+
+.first-section-img ,.second-section-img{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+.first-section-img{
+    margin-bottom: 10px;
 }
