@@ -35,15 +35,16 @@ button:hover {
   border: none;
   transform: scale(1.2);
 }
-.portfolio-img img{
-    width: 33.33%;
-    height: 400px;
+.portfolio-img img {
+  width: 33.33%;
+  height: 400px;
 }
 btn-primary {
 }
 /* banner section css */
 .banner {
-  background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%) ,url("../img/Banner\ Image.png");
+  background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url("../img/Banner\ Image.png");
   margin-top: 50px;
   height: 600px;
   width: 100%;
@@ -186,10 +187,9 @@ btn-primary {
   height: 300px;
   padding: 20px;
 }
-.red-img{
+.red-img {
   border-radius: 360px;
-  border: 14px  solid red ;
-
+  border: 14px solid red;
 }
 
 .new-best-offer-another img {
@@ -232,55 +232,53 @@ btn-primary {
   font-size: 15px;
   font-weight: 300;
   margin-bottom: 10px;
-
 }
 
 /* portfolio section start */
-#portfolio-section .portfolio-text h3{
-    color: #f00;
-    font-family: Inter;
-    font-size: 20px;
-    font-weight: 500;
-    margin-bottom: 10px;
-
+#portfolio-section .portfolio-text h3 {
+  color: #f00;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 10px;
 }
-#portfolio-section .portfolio-text h1{
-    color: #070211;
-    font-family: Inter;
-    font-size: 40px;
-    font-weight: 700;
-    margin-bottom: 10px;
+#portfolio-section .portfolio-text h1 {
+  color: #070211;
+  font-family: Inter;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 10px;
 }
-#portfolio-section .portfolio-text p{
-    margin-top: 5px 0px;
-    padding-bottom:50px ;
-
+#portfolio-section .portfolio-text p {
+  margin-top: 5px 0px;
+  padding-bottom: 50px;
 }
 
-.first-section-img ,.second-section-img{
-    display: flex;
-    justify-content: space-between;
-    gap: 10px;
+.first-section-img,
+.second-section-img {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
 }
-.first-section-img{
-    margin-bottom: 10px;
+.first-section-img {
+  margin-bottom: 10px;
 }
 
 /* newsletter section */
 #newsletter {
   margin-top: 100px;
 }
-#newsletter .newsletter-content{
+#newsletter .newsletter-content {
   border-radius: 16px;
-background: rgba(255, 0, 0, 0.05);
-padding: 150px;
+  background: rgba(255, 0, 0, 0.05);
+  padding: 150px;
 }
-#newsletter .newsletter-content .newsletter-hero{} 
-#newsletter .newsletter-content .newsletter-hero img{
+#newsletter .newsletter-content .newsletter-hero {
+}
+#newsletter .newsletter-content .newsletter-hero img {
   width: 130px;
-  
 }
-#newsletter .newsletter-content .newsletter-hero h2{
+#newsletter .newsletter-content .newsletter-hero h2 {
   color: #070211;
   font-family: Merriweather;
   text-align: center;
@@ -289,36 +287,73 @@ padding: 150px;
   margin-top: 10px;
   text-transform: uppercase;
 }
-#newsletter .newsletter-content .newsletter-hero p{
+#newsletter .newsletter-content .newsletter-hero p {
   margin-top: 10px;
   color: #545455;
   font-size: 15px;
   text-align: center;
   font-family: Inter;
   font-weight: 400;
-
-
 }
-.newsletter-content{
+.newsletter-content {
   display: flex;
   text-align: center;
   justify-content: center;
   flex-direction: column;
 }
-.newsletter-form form *{
-  border-radius: 50px;
+.newsletter-form form * {
   margin-top: 15px;
   color: #fff;
   border: none;
   align-items: center;
   text-align: center;
 }
-.newsletter-form form input{
+.newsletter-form form input {
   width: 300px;
-  padding: 10px 50px;
+  padding: 15px 50px;
+  border-radius: 50px 0px 0px 50px;
 }
-.newsletter-form form button{
+.newsletter-form form button {
   border-radius: 0px 50px 50px 0px;
   width: 150px;
-  
+  padding: 15px 50px;
+}
+
+/* footer section start here */
+#footer-section {
+  height: 100vh;
+  background-color: #070211;
+  margin-top: 100px;
+  height: 100%;
+}
+.footer-section-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 120px 100px 100px 140px;
+  gap: 5px;
+}
+.footer-section-header * {
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  color: #fff;
+}
+.footer-section-img img {
+  width: 60px;
+  height: 100%;
+}
+.img-div {
+  display: flex;
+  justify-content: center;
+  margin: 0px auto;
+  gap: 10px;
+  padding: 40px;
+}
+.footer-section-bootom {
+  display: flex;
+  justify-content: space-between;
+  padding: 100px 120px;
+}
+.footer-section-bootom p {
+  color: #fff;
 }
