@@ -43,7 +43,7 @@ btn-primary {
 }
 /* banner section css */
 .banner {
-  background-image: url("../img/Banner\ Image.png");
+  background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%) ,url("../img/Banner\ Image.png");
   margin-top: 50px;
   height: 600px;
   width: 100%;
@@ -181,16 +181,15 @@ btn-primary {
   gap: 40px;
   justify-content: space-around;
 }
-.new-best-offer-img {
-  width: 400px;
-  height: 400px;
-  padding: 50px;
-  background-image: url("../img/Ellipse\ 2.png");
-  background-repeat: no-repeat;
-}
 .new-best-offer-img img {
-  width: 360px;
-  height: 360px;
+  width: 300px;
+  height: 300px;
+  padding: 20px;
+}
+.red-img{
+  border-radius: 360px;
+  border: 14px  solid red ;
+
 }
 
 .new-best-offer-another img {
