@@ -322,6 +322,16 @@ btn-primary {
   
 }
 /* optional img hover section */
+
+.portfolio-img img:hover{
+  cursor: pointer;
+  transform:scale(1.1);
+  border-radius: 100px;
+
+} 
+.portfolio-img img{
+  transition: 0.5s;
+}
 /* optional */
 /* newsletter section */
 #newsletter {
