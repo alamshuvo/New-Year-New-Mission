@@ -18,9 +18,6 @@ body {
 span {
   color: #f00;
 }
-img {
-  width: 100%;
-}
 button {
   padding: 20px 30px;
   background-color: orangered;
@@ -106,7 +103,7 @@ btn-primary {
 /* welcome secion start */
 #welcome-section {
   margin-top: 60px;
-  background-image: url("../img/Vectorrr.png");
+  background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%) , url("../img/Vectorrr.png");
   height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
@@ -233,6 +230,66 @@ btn-primary {
   font-weight: 300;
   margin-bottom: 10px;
 }
+/* holidays section start */
+
+#holidays-offer{
+  margin: 100px auto;
+}
+.holidays-offer-section-text{
+  text-align: center;
+  margin: 0px auto;
+  margin-bottom: 40px;
+}
+.holidays-offer-section-text h3{
+  font-size: 20px;
+  font-family: Inter;
+  font-weight: 500;
+  color: #070211;
+  margin-bottom: 10px;
+}
+.holidays-offer-section-text h1{
+  font-family: Merriweather;
+  text-align: center;
+  font-size: 60px;
+  font-weight: 900;
+  margin-bottom: 10px;
+}
+.holidays-offer-section-text p{
+  font-family: Inter;
+  font-size: 15px;
+  color: #545455;
+  text-align: center;
+}
+.main-img{
+  display: flex;
+  justify-content: end;
+  position: relative;
+}
+.girl{
+  width: 400px;
+}
+.discount{
+  position: absolute;
+  right: 250px;
+  top: 50px;
+}
+.Rectangle{
+  width: 100%;
+}
+.main-img-a{
+  position: relative;
+  
+}
+.box{
+  position: absolute;
+  bottom: 0px;
+  
+}
+.box img{
+  width: 80%;
+}
+
+
 
 /* portfolio section start */
 #portfolio-section .portfolio-text h3 {
@@ -262,8 +319,10 @@ btn-primary {
 }
 .first-section-img {
   margin-bottom: 10px;
+  
 }
-
+/* optional img hover section */
+/* optional */
 /* newsletter section */
 #newsletter {
   margin-top: 100px;
@@ -356,4 +415,9 @@ btn-primary {
 }
 .footer-section-bootom p {
   color: #fff;
+}
+.contact img{
+  width: 20px;
+  margin-right: 5px;
+
 }
